@@ -33,8 +33,7 @@ int main( int argc, char* argv[] )
   }
   time2 = read_csr(mcycle);
   btime = time2-time1;
-  printf("Done %ld\n", DATA_SIZE/btime);
-  printf("Done\n",);
+  printf("Done, Performane = %ld\n", DATA_SIZE/btime);
   arry = do_dummy(arry)   //to stop compiler from deleting dead code
 
   return 0; 
